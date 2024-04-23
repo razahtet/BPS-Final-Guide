@@ -7,7 +7,7 @@ let image2 = document.getElementById("image2");
 let skillName = document.getElementById("skillName");
 nextButton.addEventListener("click", nextSlide);
 prevButton.addEventListener("click", prevSlide);
-let randomColor = ["skyblue", "lightcoral", "lightgreen", "lightpink", "lightyellow", "lightseagreen", "lightslategrey", "lightsteelblue", "lightsalmon", "lightred"];
+let randomColor = ["skyblue", "lightgreen", "lightpink", "lightyellow", "lightseagreen", "lightslategrey", "lightsteelblue", "lightsalmon", "lightred"];
 let randomColor2 = ["blue", "coral", "green", "pink", "yellow", "darkblue", "salmon", "crimson"]
 let skillAr = ["Introduction", "Table of Contents", "Writing a Polished Resume and Cover Letter", "Interviews", "Dealing with Nervousness", "Managing Interpersonal Relationships", "Body Language", "Conclusion", "Thank You!"];
 let textAr = ["<h3>In the business world, it is important to advance business and professional speaking and writing skills to be successful. The following guide will provide the necessary skills so that you can become an effective and professional speaker.<h1>Confidence, Passion, and Authenticity</h1>(Press 'Next' to go onto the guide and Previous to go backwards)</h3>",
