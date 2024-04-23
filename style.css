@@ -1,0 +1,94 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: gold;
+  border-top: 10px ridge black;
+  border-left: 10px groove red;
+  border-right: 10px ridge red;
+
+  border-radius: 20px;
+}
+
+#actBox {
+  position: relative;
+  animation-delay: 1s;
+  animation: mymove 3s;
+  background-color: skyblue;
+  border-left: 8px ridge darkgoldenrod;
+  border-right: 8px ridge darkgoldenrod;
+}
+
+#theImage,
+#image2 {
+  width: 45%;
+  height: 300px;
+  border: 10px ridge darkblue;
+}
+
+#actDiv {
+  display: inline-flex;
+}
+
+#boomH {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: midnightblue;
+}
+
+#skillName {
+  display: inline-block;
+  font-family: "Rubik Dirt", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: crimson;
+}
+
+#actText {
+  width: 50%;
+  color: black;
+  display: inline-block;
+  height: 300px;
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: bold;
+  overflow: auto;
+  margin-left: 5%;
+  font-size: 17.5px;
+}
+
+
+#actImage {
+  width: 50%;
+  display: inline-block;
+  margin-left: 10%;
+}
+
+#prevButton,
+#nextButton {
+  margin-top: 5%;
+  display: inline-block;
+  border: 5px ridge blue;
+  font-size: 25px;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#prevButton {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+#nextButton {
+  background-color: darkorange;
+  cursor: pointer;
+}
+
+#image2 {
+  display: none;
+}
