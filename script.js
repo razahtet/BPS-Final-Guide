@@ -19,7 +19,7 @@ let imageAr = [{
   "src": "speaking-man.png",
   "alt": "Speaking Man"
 }, {
-  "src": "toc.png",
+  "src": "toccartoonclipart.png",
   "alt": "Table of Contents"
 }, {
   "src": "resume.png",
